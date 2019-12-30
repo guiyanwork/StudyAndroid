@@ -4,7 +4,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
-    <!-- top_layout toolbar_layout Layout -->
+    <!-- layout_toobar_activity layout_toobar_home Layout -->
     <dimen name="fl_title_bar_height">48dp</dimen>
     <dimen name="iv_title_bar_app_icon_size">26dp</dimen>
     <dimen name="iv_title_bar_app_icon_margin_start">12dp</dimen>
