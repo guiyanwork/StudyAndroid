@@ -1,6 +1,6 @@
 package com.github.studyandroid.app.ui.activity
 
-import androidx.appcompat.app.AppCompatActivity
+import android.app.Activity
 import android.os.Bundle
 import android.view.View
 import com.github.studyandroid.app.R
@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.layout_toobar_home.*
  * Description: Item Activity
  * Author(s): Gui Yan (guiyanwork@163.com)
  */
-class ItemActivity : AppCompatActivity(), View.OnClickListener {
+class ItemActivity : Activity(), View.OnClickListener {
     companion object {
         const val INTENT_KEY_TITLE: String = "title"
     }
