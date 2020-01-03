@@ -16,7 +16,7 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="@dimen/iv_title_bar_app_icon_margin_start"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_toolbar_back" />
+            android:src="@mipmap/ic_toolbar_back" />
 
         <TextView
             android:id="@+id/tv_toolbar_title"
@@ -35,7 +35,7 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="@dimen/iv_title_bar_exit_margin_end"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_toolbar_exit"
+            android:src="@mipmap/ic_toolbar_exit"
             android:visibility="invisible" />
     </RelativeLayout>
 </FrameLayout>

@@ -16,6 +16,6 @@
             android:layout_height="wrap_content"
             android:scaleType="fitXY"
             android:layout_gravity="center"
-            android:src="@drawable/ic_launcher" />
+            android:src="@mipmap/ic_launcher" />
     </FrameLayout>
 </LinearLayout>
