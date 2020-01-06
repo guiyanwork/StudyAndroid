@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.github.studyandroid.app.ui.activity.ItemActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.layout_toobar_activity.*
+import kotlinx.android.synthetic.main.layout_toobar_home.*
 
 /**
  * Copyright (c) 2019 GitHub, Inc.

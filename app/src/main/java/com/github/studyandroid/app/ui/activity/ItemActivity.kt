@@ -4,7 +4,7 @@ import android.app.Activity
 import android.os.Bundle
 import android.view.View
 import com.github.studyandroid.app.R
-import kotlinx.android.synthetic.main.layout_toobar_home.*
+import kotlinx.android.synthetic.main.layout_toobar_activity.*
 
 /**
  * Copyright (c) 2019 GitHub, Inc.
