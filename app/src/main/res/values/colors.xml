@@ -9,8 +9,8 @@
     <color name="gainsboro">#DCDCDC</color>
 
     <!-- MainActivity Activity -->
-    <color name="tv_list_type_background">#EDEBE9</color>
-    <color name="tv_list_type_text">#888580</color>
+    <color name="tv_list_title_background">#EDEBE9</color>
+    <color name="tv_list_title_text">#888580</color>
     <color name="tv_list_item_text">#FF383837</color>
     <color name="v_list_item_divide_line">#DCDCDC</color>
 </resources>

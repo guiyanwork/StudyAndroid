@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.github.studyandroid.app.ui.activity.ItemActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.layout_toobar_home.*
+import kotlinx.android.synthetic.main.layout_toolbar_home.*
 
 /**
  * Copyright (c) 2019 GitHub, Inc.
@@ -24,7 +24,7 @@ class MainActivity : Activity(), View.OnClickListener {
 
     private fun setListener() {
         tv_item.setOnClickListener(this)
-        iv_exit.setOnClickListener(this)
+        iv_toolbar_exit.setOnClickListener(this)
     }
 
     private fun doInitWork() {
@@ -37,7 +37,7 @@ class MainActivity : Activity(), View.OnClickListener {
                 intentItem.putExtra(ItemActivity.INTENT_KEY_TITLE, tv_item.text)
                 startActivity(intentItem)
             }
-            iv_exit.id -> finish()
+            iv_toolbar_exit.id -> finish()
         }
     }
 }
