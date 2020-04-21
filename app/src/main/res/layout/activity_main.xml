@@ -44,9 +44,9 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/v_list_item_divide_line_height"
-                android:layout_marginHorizontal="@dimen/tv_list_padding_horizontal"
-                android:background="@color/v_list_item_divide_line" />
+                android:layout_height="@dimen/v_list_item_divider_height"
+                android:layout_marginHorizontal="@dimen/v_list_item_divider_margin_horizontal"
+                android:background="@color/v_list_item_divider" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -83,9 +83,9 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/v_list_item_divide_line_height"
-                android:layout_marginHorizontal="@dimen/tv_list_padding_horizontal"
-                android:background="@color/v_list_item_divide_line" />
+                android:layout_height="@dimen/v_list_item_divider_height"
+                android:layout_marginHorizontal="@dimen/v_list_item_divider_margin_horizontal"
+                android:background="@color/v_list_item_divider" />
 
             <TextView
                 android:layout_width="match_parent"

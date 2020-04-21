@@ -3,7 +3,7 @@ package com.github.studyandroid.app.application
 import android.app.Application
 
 /**
- * Copyright (c) 2019 GitHub, Inc.
+ * Copyright (c) 2020 GitHub, Inc.
  * Description: Application
  * Author(s): Gui Yan (guiyanwork@163.com)
  */

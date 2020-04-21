@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.layout_toolbar_home.*
 
 /**
- * Copyright (c) 2019 GitHub, Inc.
+ * Copyright (c) 2020 GitHub, Inc.
  * Description: Main Activity
  * Author(s): Gui Yan (guiyanwork@163.com)
  */

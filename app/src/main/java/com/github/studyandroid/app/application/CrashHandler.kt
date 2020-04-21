@@ -1,7 +1,7 @@
 package com.github.studyandroid.app.application
 
 /**
- * Copyright (c) 2019 GitHub, Inc.
+ * Copyright (c) 2020 GitHub, Inc.
  * Description: Crash handler
  * Author(s): Gui Yan (guiyanwork@163.com)
  */
