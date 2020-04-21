@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':p001_kotlin_base'
 rootProject.name='StudyAndroid'
