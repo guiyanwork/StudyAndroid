@@ -69,7 +69,6 @@
                 android:textColor="@color/tv_list_title_text"
                 android:textSize="@dimen/tv_list_title_font_size" />
 
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/tv_list_item_height"

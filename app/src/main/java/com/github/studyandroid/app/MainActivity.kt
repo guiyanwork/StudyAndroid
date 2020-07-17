@@ -24,7 +24,7 @@ class MainActivity : Activity(), View.OnClickListener {
 
     private fun setListener() {
         tv_item.setOnClickListener(this)
-        iv_toolbar_exit.setOnClickListener(this)
+        fl_toolbar_exit.setOnClickListener(this)
     }
 
     private fun doInitWork() {
@@ -37,7 +37,7 @@ class MainActivity : Activity(), View.OnClickListener {
                 intentItem.putExtra(ItemActivity.INTENT_KEY_TITLE, tv_item.text)
                 startActivity(intentItem)
             }
-            iv_toolbar_exit.id -> finish()
+            fl_toolbar_exit.id -> finish()
         }
     }
 }

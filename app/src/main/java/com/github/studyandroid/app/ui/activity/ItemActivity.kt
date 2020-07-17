@@ -24,7 +24,7 @@ class ItemActivity : Activity(), View.OnClickListener {
     }
 
     private fun setListener() {
-        iv_toolbar_back.setOnClickListener(this)
+        fl_toolbar_back.setOnClickListener(this)
     }
 
     private fun doInitWork() {
@@ -33,7 +33,7 @@ class ItemActivity : Activity(), View.OnClickListener {
 
     override fun onClick(view: View) {
         when (view.id) {
-            iv_toolbar_back.id -> finish()
+            fl_toolbar_back.id -> finish()
         }
     }
 }

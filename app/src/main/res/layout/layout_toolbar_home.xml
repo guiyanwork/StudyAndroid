@@ -5,22 +5,25 @@
     android:background="@color/colorPrimary"
     android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/iv_toolbar_icon"
-        android:layout_width="@dimen/iv_toolbar_icon_size"
-        android:layout_height="@dimen/iv_toolbar_icon_size"
-        android:layout_gravity="center_vertical"
-        android:layout_marginStart="@dimen/iv_toolbar_icon_margin_start"
-        android:contentDescription="@string/icon"
-        android:scaleType="fitXY"
-        android:src="@mipmap/ic_launcher" />
+    <FrameLayout
+        android:layout_width="@dimen/ll_title_bar_height"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_toolbar_icon"
+            android:layout_width="@dimen/iv_toolbar_icon_size"
+            android:layout_height="@dimen/iv_toolbar_icon_size"
+            android:layout_gravity="center"
+            android:contentDescription="@string/icon"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+    </FrameLayout>
 
     <TextView
         android:id="@+id/tv_toolbar_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginStart="@dimen/tv_toolbar_title_margin_start"
         android:text="@string/app_name"
         android:textColor="@color/white"
         android:textSize="@dimen/tv_toolbar_title_size"
@@ -31,13 +34,17 @@
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
-    <ImageView
-        android:id="@+id/iv_toolbar_exit"
-        android:layout_width="@dimen/iv_toolbar_exit_size"
-        android:layout_height="@dimen/iv_toolbar_exit_size"
-        android:layout_gravity="center_vertical"
-        android:layout_marginEnd="@dimen/iv_toolbar_exit_margin_end"
-        android:contentDescription="@string/exit"
-        android:scaleType="fitXY"
-        android:src="@mipmap/ic_toolbar_exit" />
+    <FrameLayout
+        android:id="@+id/fl_toolbar_exit"
+        android:layout_width="@dimen/ll_title_bar_height"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="@dimen/iv_toolbar_exit_size"
+            android:layout_height="@dimen/iv_toolbar_exit_size"
+            android:layout_gravity="center"
+            android:contentDescription="@string/exit"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_toolbar_exit" />
+    </FrameLayout>
 </LinearLayout>

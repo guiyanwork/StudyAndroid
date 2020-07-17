@@ -7,11 +7,8 @@
     <!-- layout_toolbar_activity layout_toolbar_home Layout -->
     <dimen name="ll_title_bar_height">48dp</dimen>
     <dimen name="iv_toolbar_icon_size">26dp</dimen>
-    <dimen name="iv_toolbar_icon_margin_start">12dp</dimen>
-    <dimen name="tv_toolbar_title_margin_start">12dp</dimen>
     <dimen name="tv_toolbar_title_size">18sp</dimen>
     <dimen name="iv_toolbar_exit_size">26dp</dimen>
-    <dimen name="iv_toolbar_exit_margin_end">12dp</dimen>
 
     <!-- MainActivity Activity -->
     <dimen name="tv_list_title_height">24dp</dimen>
