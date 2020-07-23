@@ -49,8 +49,8 @@ class ObservableImpl : Observable {
     }
 
     override fun notifyObserver() {
-        for (observer in mObservers) {
-            observer.update(message)
+        mObservers.forEach {
+            it.update(message)
         }
     }
 }
