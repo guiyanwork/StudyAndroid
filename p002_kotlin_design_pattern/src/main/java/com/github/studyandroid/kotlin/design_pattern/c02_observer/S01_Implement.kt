@@ -25,9 +25,9 @@ fun main(args: Array<String>) {
  * 具体观察者
  * 实现了[Observer]接口
  */
-class ObserverImpl(val name: String) : Observer {
+class ObserverImpl(private val name: String) : Observer {
     override fun update(message: String?) {
-        println("观察者${name}收到了观察者发送的推送消息：$message")
+        println("观察者${name}收到了被观察者发送的推送消息：$message")
     }
 }
 
